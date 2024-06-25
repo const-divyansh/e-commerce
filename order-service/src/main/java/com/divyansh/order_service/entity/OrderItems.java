@@ -10,8 +10,8 @@ import java.util.UUID;
 @Table(name = "order_items_list")
 @NoArgsConstructor
 @AllArgsConstructor
-@Getter
-@Setter
+@Data
+@Builder
 public class OrderItems {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
